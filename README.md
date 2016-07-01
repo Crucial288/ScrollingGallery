@@ -7,7 +7,7 @@ Add this snippet somewhere:
 ```
 <script>
 new ScrollingGallery({
-  'selector': '.selector',
+  'selector': '.gallery',
   'speed': 2,
   'width': 150,
   'padding': 20,
@@ -19,7 +19,7 @@ new ScrollingGallery({
 Which would turn this into a gallery:
 
 ```
-<div>
+<div class="gallery">
   <img src="img1.jpg" />
   <img src="img2.jpg" />
 </div>
