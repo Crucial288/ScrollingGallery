@@ -16,5 +16,14 @@ new ScrollingGallery({
 </script>
 ```
 
+Which would turn this into a gallery:
+
+```
+<div>
+  <img src="img1.jpg" />
+  <img src="img2.jpg" />
+</div>
+```
+
 #Requirements:
 Requires jQuery to be loaded on the page
